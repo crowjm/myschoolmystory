@@ -25,6 +25,14 @@ body {
 	margin-bottom: 1rem;
 }
 
+q::before {
+	content: '“';
+}
+
+q::after {
+	content: '”';
+}
+
 /*story styles*/
 .story {
 	margin-bottom: 2rem;
