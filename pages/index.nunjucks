@@ -1,0 +1,19 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+	<header role="banner">
+		<nav role="navigation"></nav>
+	</header>
+	<section role="complementary" class="intro">
+		<h1><span>Lorem Ipsum Dolor Sit</span></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar mauris eget semper posuere. Ut ultrices erat ullamcorper nibh commodo tincidunt. Donec tempor vitae sem eu elementum. Nunc tristique varius ligula, sed auctor arcu pulvinar non. Vivamus ac congue nisi. Proin vel sagittis leo. Vestibulum vel congue tellus, id iaculis neque. Nullam nec hendrerit lectus, semper maximus dolor. Nullam ac lectus nec nibh tincidunt placerat quis et est. Donec vulputate lectus in dui ultricies gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer rhoncus auctor nulla.</p>
+		<p>Vivamus ac congue nisi. Proin vel sagittis leo. Vestibulum vel congue tellus, id iaculis neque. Nullam nec hendrerit lectus, semper maximus dolor. Nullam ac lectus nec nibh tincidunt placerat quis et est. Donec vulputate lectus in dui ultricies gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer rhoncus auctor nulla.</p>
+	</section>
+	<section role="main" class="stories">
+		{% for story in stories %}
+		<div class="story">
+			<p class="story__title">{{story.title}}</p>
+			<p class="story__content">{{story.content}}</p>
+		</div>
+	   {% endfor %}
+	</section>
+{% endblock %}

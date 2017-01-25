@@ -1,0 +1,21 @@
+/*base styles*/
+body {
+	background: $white;
+}
+
+/*main section styles*/
+.intro, .stories {
+	margin: 4rem auto;
+	max-width: 44rem;
+	width: 90%;
+}
+
+/*intro styles*/
+.intro p {
+	margin-bottom: 1rem;
+}
+
+/*story styles*/
+.story {
+	margin-bottom: 2rem;
+}
