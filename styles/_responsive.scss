@@ -1,4 +1,11 @@
 @media screen and (min-width: 700px) {
+	h1 {
+		font-size: 3rem;
+		span {
+			border-bottom: 1rem solid rgba($main, .5);
+		}
+	}
+
 	p {
 		font-size: 1.4rem;
 	}

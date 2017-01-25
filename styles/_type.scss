@@ -5,13 +5,13 @@
 h1 {
 	color: $main;
 	font-family: abril-text, serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 800;
 	letter-spacing: .2rem;
 	line-height: 1.5;
 	padding-bottom: 1rem;
 	span {
-		border-bottom: 1rem solid rgba($main, .5);
+		border-bottom: .5rem solid rgba($main, .5);
 	}
 }
 
