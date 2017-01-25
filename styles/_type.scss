@@ -1,8 +1,9 @@
-h1 {
+.title {
 	color: $main;
 }
 
 h1 {
+	color: $main;
 	font-family: abril-text, serif;
 	font-size: 3rem;
 	font-weight: 800;
@@ -14,11 +15,20 @@ h1 {
 	}
 }
 
-p {
+p, a {
 	font-family: mr-eaves-xl-modern, sans-serif;
 	font-size: 1.2rem;
 	font-weight: 300;
 	line-height: 1.7;
+}
+
+a {
+	border-bottom: .2rem solid $main;
+	text-decoration: none;
+	transition: border-bottom .3s ease;
+	&:hover {
+		border-bottom: .2rem solid rgba($main, .5);
+	}
 }
 
 .story__title {

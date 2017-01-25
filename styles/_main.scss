@@ -3,8 +3,18 @@ body {
 	background: $white;
 }
 
+/*nav styles*/
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header {
+	margin-top: 2rem;
+}
+
 /*main section styles*/
-.intro, .stories {
+.intro, .stories, .header {
 	margin: 4rem auto;
 	max-width: 44rem;
 	width: 90%;
