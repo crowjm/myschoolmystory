@@ -16,6 +16,10 @@
 		{% for story in stories %}
 		<div class="story">
 			<p class="story__title">{{story.title}}</p>
+			<div class="story__details">
+				<p class="story__level">{{story.level}}</p>
+				<p class="story__state">{{story.state}}</p>
+			</div>
 			<p class="story__content">{{story.content}}</p>
 		</div>
 	   {% endfor %}
